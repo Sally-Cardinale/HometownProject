@@ -1,0 +1,104 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+#hero {
+    background-image: url(images/redlandsHero.jpeg); 
+    background-size: cover;
+    padding: 40px 60px;
+    height: 400px;
+    color: white;
+}
+
+.section {
+    padding: 40px 60px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.heading {
+    text-shadow: 0 0 10px black;
+}
+
+.subheading {
+    text-shadow: 0 0 10px black;
+}
+
+#activities {
+    background: lightgray;
+}
+
+.activities-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card img {
+    margin: 20px 40px;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.explore:hover {
+    color: #52796f;
+}
+
+.guide-card {
+    border-bottom: 10px solid #52796f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: white;
+    border-radius: 4px;
+    padding: 20px 40px;
+    background: #CAD2c5;
+    text-shadow: 0 0 10px black;
+   
+}
+
+.guide-card img {
+    width: 100px;
+    margin-right: 40px
+}
+
+.card-quote {
+    font-style: italic;
+}
+
+#guide {
+    background-color: #2f3e46;
+}
